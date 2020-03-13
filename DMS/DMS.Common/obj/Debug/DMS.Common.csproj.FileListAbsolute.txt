@@ -1,0 +1,11 @@
+D:\DMS\DMS.Common\bin\Debug\DMS.Common.dll
+D:\DMS\DMS.Common\bin\Debug\DMS.Common.pdb
+D:\DMS\DMS.Common\obj\Debug\DMS.Common.csproj.CoreCompileInputs.cache
+D:\DMS\DMS.Common\obj\Debug\DMS.Common.dll
+D:\DMS\DMS.Common\obj\Debug\DMS.Common.pdb
+D:\Hardik.Prajapati\DMS\DMS.Common\bin\Debug\DMS.Common.dll
+D:\Hardik.Prajapati\DMS\DMS.Common\bin\Debug\DMS.Common.pdb
+D:\Hardik.Prajapati\DMS\DMS.Common\obj\Debug\DMS.Common.csproj.CoreCompileInputs.cache
+D:\Hardik.Prajapati\DMS\DMS.Common\obj\Debug\DMS.Common.dll
+D:\Hardik.Prajapati\DMS\DMS.Common\obj\Debug\DMS.Common.pdb
+D:\Hardik.Prajapati\DMS\DMS.Common\obj\Debug\DMS.Common.csprojAssemblyReference.cache

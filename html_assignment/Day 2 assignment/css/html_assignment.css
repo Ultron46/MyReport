@@ -1,0 +1,111 @@
+.navigation
+{
+    background-color: orange;
+    width: 335px;
+    float: right;
+}
+
+
+.navigation-list
+{
+    align-content: flex-end;
+    font-size: 15.5px; 
+    color:red;
+}
+
+.navigation-list > li{
+    display: inline-block;   
+}
+
+.banner
+{
+    margin-top: 4px;
+    background-color: lightgrey;
+    display: flex;
+    background-image: url('../images/home_banner.jpg');
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;   
+    height: 250px;
+    align-items: center;
+}
+
+
+.banner > div{
+    color: chocolate;
+    width: 100px;
+    margin: 50px;
+    line-height: center;
+    text-align: center;
+    font-size: 30px;   
+}
+
+.banner > button{
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    align-self: flex-end;
+}
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.service >div{
+    background-color: linen;
+     border:3px solid black;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    overflow: auto;
+   
+}
+
+.content
+{
+    font-size: large;
+    text-align: center;
+}
+
+
+.middletext
+{
+    text-align: center;
+    font-size:xx-large;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.footer-link > li
+{
+    display: inline-block;
+}
+
+.footer-nav
+{
+    background-color: orange;
+    width: 335px;
+    float: right;
+}
+
+.footer-link
+{
+    align-content: flex-end;
+    font-size: smaller; 
+    color:red;
+}
+
+.footer-logo
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    flex-direction: row;
+}

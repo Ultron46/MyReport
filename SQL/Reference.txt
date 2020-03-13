@@ -1,0 +1,8 @@
+Date function practice
+======================
+https://www.sqlservertutorial.net/sql-server-date-functions/
+http://sqlusa.com/bestpractices2005/sqlserverstringtodate/
+
+String function practice
+=========================
+https://www.sqlservertutorial.net/sql-server-string-functions/

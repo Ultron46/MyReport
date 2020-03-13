@@ -1,0 +1,15 @@
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\bin\Debug\DMS.BusinessEntity.dll
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\bin\Debug\DMS.BusinessEntity.pdb
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\bin\Debug\AutoMapper.dll
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\bin\Debug\DMS.Data.dll
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\bin\Debug\EntityFramework.dll
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\bin\Debug\DMS.Data.pdb
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\bin\Debug\DMS.Data.dll.config
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\bin\Debug\AutoMapper.pdb
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\bin\Debug\AutoMapper.xml
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\bin\Debug\EntityFramework.xml
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\obj\Debug\DMS.BusinessEntities.csprojAssemblyReference.cache
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\obj\Debug\DMS.BusinessEntities.csproj.CoreCompileInputs.cache
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\obj\Debug\DMS.BusinessEntities.csproj.CopyComplete
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\obj\Debug\DMS.BusinessEntity.dll
+D:\Hardik.Prajapati\DMS\DMS.BusinessEntity\obj\Debug\DMS.BusinessEntity.pdb

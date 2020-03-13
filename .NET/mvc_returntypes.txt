@@ -1,0 +1,43 @@
+ContentResult :
+It display the response stream without requiring a view .(like a plain text).
+
+public ActionResult Contact()
+        {
+            return Content("this is contact page");
+        }
+		
+
+RedirectResult :
+It is used to perform an HTTP redirect to a given URL.
+public ActionResult About()
+        {
+            return Redirect("Home/kk");
+        }		
+		
+
+
+JsonResult :
+Action methods return JsonResult (JavaScript Object Notation result) that can be used in ajax based application.
+
+public ActionResult Json()
+        {
+            return Json("hello",JsonRequestBehavior.AllowGet);
+        }
+
+		
+Redirect to Action Result		
+Redirect to Action result is returning the result to a specified controller and action method. Controller name is optional in Redirect to Action method. 
+
+ public ActionResult Detail()
+        {
+            return RedirectToAction("Contact");
+        }	
+
+
+Partial View Result
+
+Partial View Result is returning the result to Partial view page. Partial view is one of the views that we can call inside Normal view page.
+public PartialViewResult partial()
+        {
+            return PartialView("_PartialView");
+        }		

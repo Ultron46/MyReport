@@ -1,0 +1,13 @@
+- Create HTML by using Bootstrap
+- Use FontAwesome for Icons
+- Images are Added into Image folder
+- Fonts Poppins, you can find into Fonts.google.com
+- Should be Responsive
+- Use modal popup in  "View Details". Both button should open different modal With different Content.
+- Header Should be fix Use & use different logo in that.
+
+
+
+Header Inverse Color : #eeeeee
+Green Color Code  : #2cb539
+Black Color Code : #333333

@@ -1,0 +1,62 @@
+nav {
+    background-color: #2cb539 !important;
+}
+
+.link {
+    color: white;
+    padding: 20px;
+}
+
+.banner {
+    background-color: #2cb539;
+    width: auto;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1,
+h4 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card1 {
+    text-align: center;
+}
+
+.card {
+    border: 0cm!important;
+}
+
+.card-text:last-child {
+    padding-left: 10px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2cb539!important;
+    border-color: #2cb539!important;
+}
+
+.header {
+    z-index: 1;
+    top: 0;
+}
+
+.footer {
+    background-image: url('../Images/footer.jpg');
+    background-size: 100vw 300px;
+    width: auto;
+    height: 300px;
+}
+
+.end {
+    background-size: 100vw 100vh;
+    background-color: black;
+    width: auto;
+    height: auto;
+}

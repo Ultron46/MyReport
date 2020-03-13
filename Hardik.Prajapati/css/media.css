@@ -1,0 +1,46 @@
+
+@media only screen and (max-width: 768px) {
+    .banner h1{
+      font-size: 40px;
+    }
+    .banner p{
+      font-size: 20px;
+    }
+    .banner img{
+      width: 70%;
+      height: auto;
+    }
+    .main .title hr{
+      
+      width: 20%;
+    }
+    .content1 div:first-child{
+      text-align: left;
+    }
+    .content1 div h2{
+      font-size: 30px;
+    }
+    .content1 div p{
+      font-size: 20px;
+    }
+    .content1 button{
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    .content1 img{
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: 5px;
+    }  
+    .people div{
+      width: 60%;
+    }
+    .startup input{
+      width: 300px;
+    }
+    .startup button{
+      width: 200px;
+      padding: 5px;
+    }
+  }
+  

@@ -1,0 +1,25 @@
+Date function practice
+======================
+https://www.sqlservertutorial.net/sql-server-date-functions/
+http://sqlusa.com/bestpractices2005/sqlserverstringtodate/
+
+String function practice
+=========================
+https://www.sqlservertutorial.net/sql-server-string-functions/
+
+CROSS APPLY & OUTER APPLY
+=========================
+https://www.c-sharpcorner.com/UploadFile/f0b2ed/cross-apply-and-outer-apply-in-sql-server/
+
+RANK, DENSE_RANK and ROW_NUMBER Functions
+=========================================
+https://codingsight.com/similarities-and-differences-among-rank-dense_rank-and-row_number-functions/
+
+Udf
+===
+https://docs.microsoft.com/en-us/sql/relational-databases/user-defined-functions/user-defined-functions?view=sql-server-ver15
+
+CTE => Common table expressions 
+===============================
+https://www.essentialsql.com/recursive-ctes-explained/
+https://docs.microsoft.com/en-us/sql/t-sql/queries/with-common-table-expression-transact-sql?view=sql-server-ver15

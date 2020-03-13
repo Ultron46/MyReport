@@ -1,0 +1,70 @@
+/*header {
+    position: relative;
+    height: 300px;
+    background-image: linear-gradient(green, green);
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 100px 0;
+    font: 44px "Arial";
+    text-align: center;
+  }
+  
+  header h1 {
+    color: white;
+  }
+  
+  .divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    /* drop the height to have a constant angle for all screen widths 
+  }*/
+
+  header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .header__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(green, green);
+    transform: skewY(-3deg);
+    transform-origin: top left;
+  }
+
+  nav {
+    margin: 0;
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  header > nav{
+    position: relative;
+    color: white;
+  }
+
+  .punchX{
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+  }
+
+  .punchY{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  

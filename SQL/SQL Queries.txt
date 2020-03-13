@@ -1,0 +1,147 @@
+-> Table User
+
+-> Create
+
+CREATE TABLE [dbo].[tbluser](
+[userid] [INT] IDENTITY(1,1) NOT NULL,
+[username] [VARCHAR](50) NOT NULL,
+[password] [VARCHAR](50) NOT NULL,
+[email] [VARCHAR](MAX) NOT NULL,
+[isactive] [bit] NOT NULL,
+ CONSTRAINT [PK_tbluser] PRIMARY KEY (userid)
+ );
+ 
+ -> View
+ 
+	CREATE VIEW [dbo].[vw_user]
+AS
+SELECT userid, username, password, email, isactive
+FROM dbo.tbluser
+WHERE (isactive = 1)
+ 
+ -> Alter Table
+ 
+ -> Add Column
+ 
+ ALTER TABLE [dbo].[tbluser] 
+ADD mobileno varchar(10), landlineno varchar(10); 
+
+ALTER TABLE [dbo].[tbluser]
+ADD [address] varchar(max), test varchar(20);
+
+-> Drop Column
+
+ALTER TABLE [dbo].[tbluser]
+drop column test;
+ 
+ -> Update
+ 
+ UPDATE tbluser
+SET [address] = 'Ahmedabad';
+
+-> Update with CASE WHEN
+
+UPDATE tbluser
+SET mobileno = CASE isactive
+WHEN 1 THEN '12345'
+WHEN 0 THEN '6789'
+END;
+ 
+ -> Table User Visits
+ 
+ -> Create
+ 
+	CREATE TABLE [dbo].[tbluservisits](
+	[visitid] [INT] IDENTITY(1,1) NOT NULL,
+	[userid] [INT] NOT NULL,
+	[visitdate] [date] NOT NULL,
+CONSTRAINT [PK_tbluservisits] PRIMARY KEY (visitid),
+CONSTRAINT UK_tbluservisits UNIQUE(userid,visitdate),
+CONSTRAINT FK_tbluservisits FOREIGN KEY (userid) REFERENCES [dbo].[tbluser] (userid) ON DELETE CASCADE
+); 
+
+-> Insert queries for errors
+
+INSERT INTO [dbo].[tbluservisits] values (1,'02/02/2020');
+INSERT INTO [dbo].[tbluservisits] values (4,'01/01/2020');
+
+-> Date convert
+
+SELECT userid, visitdate, CONVERT(VARCHAR,visitdate,1) as [Formated date] FROM tbluservisits;
+
+SELECT userid, visitdate, CONVERT(VARCHAR,DATEADD(DAY,1,visitdate),1) as [Formated date] FROM tbluservisits;
+
+-> Temp Table
+
+-> Create
+
+CREATE TABLE tbltemp(
+id INT,
+[name] VARCHAR(10)
+);
+
+-> Drop
+
+DROP TABLE tbltemp;
+
+-> Insert
+
+INSERT INTO [dbo].[tbltemp] values(1,'abc');
+
+-> Truncate
+
+TRUNCATE TABLE tbltemp;
+
+-> SQL Data Types
+
+declare @a char(10) = 1;
+
+select LEN(@a), DATALENGTH(@a);
+
+go
+
+declare @a VARCHAR(10) = 1;
+
+select LEN(@a), DATALENGTH(@a);
+
+go
+
+declare @a NCHAR(10) = 1;
+
+select LEN(@a), DATALENGTH(@a);
+
+go
+
+declare @a NVARCHAR(10) = 1;
+
+select LEN(@a), DATALENGTH(@a);
+
+-> IF Statement
+
+declare @a VARCHAR(10) = 'ab';
+
+IF(@a = 'abc' )
+	print('1')
+ELSE
+	print('2')
+	
+go
+
+	
+declare @a VARCHAR(10) = NULL;
+declare @b VARCHAR(10) = NULL;
+
+IF(@a = @b )
+	print('1')
+ELSE
+	print('2')
+	
+go
+
+declare @a VARCHAR(10) = NULL;
+declare @b VARCHAR(10) = NULL;
+
+IF(ISNULL(@a,'') = ISNULL(@b,'') )
+	print('1')
+ELSE
+	print('2')
